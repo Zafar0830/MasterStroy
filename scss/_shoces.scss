@@ -1,0 +1,56 @@
+.shoces__wrap {
+  background-image: url(./../imgs/shocese.png);
+  background-repeat: no-repeat;
+  padding: 135px 0px;
+}
+
+.shoces__container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.shoces__heading {
+  max-width: 800px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+.shoces__text {
+  max-width: 750px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 32px;
+}
+
+@media(max-width:800px){
+  .shoces__wrap {
+    padding: 95px 0px;
+    
+  }
+  .shoces__heading {
+    font-size: 30px;
+  }
+}
+
+@media(max-width:600px){
+  .shoces__wrap {
+    padding: 55px 0px;
+  }
+}
+@media(max-width:500px){
+  .shoces__wrap {
+    padding: 25px 0px;
+  }
+}

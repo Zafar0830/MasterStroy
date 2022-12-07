@@ -1,0 +1,141 @@
+
+.card2__container {
+  padding: 120px 0px;
+  text-align: center;
+}
+.card2__heading {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 43px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 80px;
+}
+.card2__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  justify-content: space-between;
+  justify-content: center;
+}
+.card2__item1 {
+  max-width: 480px;
+  display: flex;
+  padding-left: 23px;
+  background: #FFFFFF;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+.card2__item-wrapper {
+  display: flex;
+}
+.card2__item-wrapper img{
+  margin-bottom: 27px;
+}
+.card2__left {
+  padding-top: 20px;
+  padding-right: 24px;
+}
+.card2__text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin-bottom: 12px;
+  text-align: start;
+}
+.card2__razmer {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin-bottom: 9px;
+  text-align: start;
+}
+.card2_divs {
+  display: flex;
+  gap: 7px;
+  margin-bottom: 20px;
+}
+.card2_div {
+  width: 15px;
+  height: 15px;
+}
+.card2_div1 {
+  background-color:  #737373;
+}
+.card2_div2 {
+  background: #9C0909;
+}
+.card2_div3 {
+  background: #D48D37;
+}
+.card2_div4 {
+  background: #964B00;
+}
+.card2_div5 {
+  background: #DC143C;
+}
+.card2_div6 {
+  background: #49423D;
+}
+.card2_div7 {
+  background: #D77D31;
+}
+.card2_div8 {
+  background: #000000;
+}
+.card2__list2{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 30px;
+  padding-right: 50px;
+}
+.card2__right {
+  background: #404040;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  overflow: hidden;
+  padding-top: 16px;
+}
+.card2__item-heading {
+  text-align: start;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 149.4%;
+  color: #FFFFFF;
+}
+.card2__item-text {
+  text-align: start;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 149.4%;
+  color: #FFFFFF;
+}
+.card2__btn {
+  align-self: flex-end;
+  padding: 20px 28px;
+  border-top-left-radius: 30px;
+  font-size: 20px;
+  background: #E05100;
+  color: white;
+}
+@media(max-width:800px){
+  .card2__left img{
+    width: 200px;
+  }
+}

@@ -1,0 +1,74 @@
+
+.tovar__section {
+  background: #404040;
+}
+
+.tovar__container {
+  text-align: center;
+  padding: 120px 0px;
+}
+.tovar__heading {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 43px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 80px;
+}
+
+.tovar__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+.tovar__logo-wrap{
+  width: 231px;
+  height: 74px;
+  background: #FFFFFF;
+  border-radius: 30px;
+  margin-bottom: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tovar__list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.tovar__item {
+  display:flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.tovar__text {
+  max-width: 238px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  text-align: start;
+}
+.tovar__right iframe{
+  width: 685px;
+  height: 385px;
+}
+@media(max-width:800px){
+  .tovar__right iframe{
+    width: 456px;
+    height: 256px;
+  }
+}
+@media(max-width:650px){
+  .tovar__right iframe{
+    width: 338px;
+    height: 190px;
+  }
+}

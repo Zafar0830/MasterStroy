@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=DM+Sans:wght@400;700&family=Fira+Sans:wght@400;500;800&family=Inter&family=Karla&family=Montserrat:wght@300;400;700&family=Nunito+Sans:wght@400;700&display=swap");
+    </style>
+    <link rel="stylesheet" href="./scss/stayli.css" />
+    <title>BEM MACTER</title>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="header__wrap big-container">
+          <div class="header__container container">
+            <img src="./imgs/logo.svg" alt="" class="header__logo" />
+
+            <ul class="header__list">
+              <li class="header__item">
+                <a href="#about1" class="header__link">О компании</a>
+              </li>
+
+              <li class="header__item">
+                <a href="#about2" class="header__link"
+                  >Укладка тротуарной плитки</a
+                >
+              </li>
+
+              <li class="header__item">
+                <a href="#about3" class="header__link">Портфолио</a>
+              </li>
+
+              <li class="header__item">
+                <a href="#about4" class="header__link">Полезно знать</a>
+              </li>
+
+              <li class="header__item">
+                <a href="#about5" class="header__link">Доставка и оплата</a>
+              </li>
+
+              <li class="header__item">
+                <a href="#about6" class="header__link">Контакты</a>
+              </li>
+            </ul>
+
+            <input class="inp" id="checkbox" type="checkbox" />
+            <label for="checkbox">
+              <img class="header__menu" src="./imgs/menu.svg" alt="" />
+            </label>
+
+            <ul class="modal__list">
+              <label class="modal__list--off" for="checkbox"> x </label>
+
+              <li class="modal__item">
+                <a href="#about2" class="modal__link">О компании</a>
+              </li>
+
+              <li class="modal__item">
+                <a href="#about3" class="modal__link">Укладка тротуарной плитки</a>
+              </li>
+
+              <li class="modal__item">
+                <a href="#about4" class="modal__link">Портфолио</a>
+              </li>
+
+              <li class="modal__item">
+                <a href="#about1" class="modal__link">Полезно знать</a>
+              </li>
+
+              <li class="modal__item">
+                <a href="#about5" class="modal__link">Доставка и оплата</a>
+              </li>
+
+              <li class="modal__item">
+                <a href="#about6" class="modal__link">Контакты</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="shoces">
+        <div class="shoces__wrap big-container">
+          <div class="shoces__container container">
+            <h1 class="shoces__heading">
+              Тротуарная плитка в Волоколамске напрямую от производителя
+            </h1>
+
+            <p class="shoces__text">
+              Вам нужна качественная и недорогая тротуарная плитка в
+              Волоколамске? Мы готовы предложить отличную возможность приобрести
+              современные модели с высокими показателями эстетики и механической
+              стойкости напрямую от производителя – компании «Мастер Строй».
+            </p>
+
+            <a href="">
+              <button class="button">Каталог</button>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="card" id="about3">
+        <div class="big-container card">
+          <div class="card__container container">
+            <h2 class="card__heading">Каталог продукции</h2>
+            <ul class="card__list">
+              <li class="card__item">
+                <img src="./imgs/card.png" alt="" class="card__img" />
+                <h3 class="card__text">Прессованная плитка</h3>
+              </li>
+
+              <li class="card__item">
+                <img src="./imgs/card12.png" alt="" class="card__img" />
+                <h3 class="card__text">Прессованная плитка</h3>
+              </li>
+
+              <li class="card__item">
+                <img src="./imgs/card13.png" alt="" class="card__img" />
+                <h3 class="card__text">Прессованная плитка</h3>
+              </li>
+
+              <li class="card__item">
+                <img src="./imgs/card14.png" alt="" class="card__img" />
+                <h3 class="card__text">Прессованная плитка</h3>
+              </li>
+
+              <li class="card__item">
+                <img src="./imgs/card15.png" alt="" class="card__img" />
+                <h3 class="card__text">Прессованная плитка</h3>
+              </li>
+
+              <li class="card__item">
+                <img src="./imgs/card16.png" alt="" class="card__img" />
+                <h3 class="card__text">Прессованная плитка</h3>
+              </li>
+
+              <li class="card__item">
+                <img src="./imgs/card17.png" alt="" class="card__img" />
+                <h3 class="card__text">Прессованная плитка</h3>
+              </li>
+
+              <li class="card__item">
+                <img src="./imgs/card18.png" alt="" class="card__img" />
+                <h3 class="card__text">Прессованная плитка</h3>
+              </li>
+            </ul>
+
+            <a href="">
+              <button class="button">Больше товаров</button>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="master" id="about1">
+        <div class="big-container master__wrapper">
+          <div class="master__left">
+            <img src="./imgs/master-img.png" alt="" class="master__img" />
+          </div>
+          <div class="master__right">
+            <h3 class="master__heading1">О нас</h3>
+            <h3 class="master__heading2">
+              «Мастер Строй» - надежная и недорогая тротуарная плитка в
+              Волоколамском районе
+            </h3>
+
+            <p class="master__text">
+              Наша компания готова помочь вам и с первым и со вторым аспектом
+              данной задачи. В нашем каталоге вы сможете подобрать желаемый
+              вариант материала и сразу заказать профессиональную укладку на
+              вашем участке. Вниманию покупателей всегда доступна качественная и
+              прочная тротуарная плитка от производителя по оптимальной
+              стоимости. <br />
+              <br />
+
+              Если вам нужна надежная тротуарная плитка, купить в Волоколамском
+              районе такой материал можно у нас, цена продукции из каталога вас
+              приятно удивит и не ударит по бюджету. Оформить заказ можно прямо
+              на сайте. Если в процессе выбора вам понадобится консультация
+              специалиста, вы всегда можете заказать обратный звонок, используя
+              специальную функцию на сайте, либо самостоятельно позвонить
+              менеджеру по указанным телефонам. <br />
+              <br />
+
+              Теперь если вам нужна тротуарная плитка, вы знаете где ее можно
+              приобрести. «Мастер Строй» - компания-производитель, которая
+              гарантирует достойный уровень качества по приятной цене.<br />
+              <br />
+
+              ООО «МАСТЕ
+            </p>
+
+            <a href="">
+              <button class="button">Приобрести</button>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="card2" id="about2">
+        <div class="card2">
+          <div class="big-container card2__section">
+            <div class="container card2__container">
+              <h3 class="card2__heading">Топ товаров</h3>
+              <ul class="card2__list">
+                <li class="card2__item1">
+                  <div class="card2__item-wrapper">
+                    <div class="card2__left">
+                      <img src="./imgs/card2.png" alt="" />
+                      <h3 class="card2__text">Шестигранник 250x220x70</h3>
+                      <p class="card2__razmer">
+                        Размер: 250x220x70мм <br />
+                        <br />
+                        Количество: 9 шт/кв.м <br />
+                        <br />
+                        Цвета в наличии: 8 <br />
+                      </p>
+                      <div class="card2_divs">
+                        <div class="card2_div1 card2_div"></div>
+                        <div class="card2_div2 card2_div"></div>
+                        <div class="card2_div3 card2_div"></div>
+                        <div class="card2_div4 card2_div"></div>
+                        <div class="card2_div5 card2_div"></div>
+                        <div class="card2_div6 card2_div"></div>
+                        <div class="card2_div7 card2_div"></div>
+                        <div class="card2_div8 card2_div"></div>
+                      </div>
+                    </div>
+                    <div class="card2__right">
+                      <ul class="card2__list2">
+                        <li class="card2__item">
+                          <h4 class="card2__item-heading">Серый</h4>
+                          <p class="card2__item-text">440 руб кв/м</p>
+                        </li>
+
+                        <li class="card2__item">
+                          <h4 class="card2__item-heading">Серый</h4>
+                          <p class="card2__item-text">440 руб кв/м</p>
+                        </li>
+
+                        <li class="card2__item">
+                          <h4 class="card2__item-heading">Серый</h4>
+                          <p class="card2__item-text">440 руб кв/м</p>
+                        </li>
+
+                        <li class="card2__item">
+                          <h4 class="card2__item-heading">Серый</h4>
+                          <p class="card2__item-text">440 руб кв/м</p>
+                        </li>
+
+                        <li class="card2__item">
+                          <h4 class="card2__item-heading">Серый</h4>
+                          <p class="card2__item-text">440 руб кв/м</p>
+                        </li>
+                      </ul>
+
+                      <button class="card2__btn">+</button>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="card2__item1">
+                  <div class="card2__item-wrapper">
+                    <div class="card2__left">
+                      <img src="./imgs/card22.png" alt="" />
+                      <h3 class="card2__text">Шестигранник 250x220x70</h3>
+                      <p class="card2__razmer">
+                        Размер: 250x220x70мм <br />
+                        <br />
+                        Количество: 9 шт/кв.м <br />
+                        <br />
+                        Цвета в наличии: 8 <br />
+                      </p>
+                      <div class="card2_divs">
+                        <div class="card2_div1 card2_div"></div>
+                        <div class="card2_div2 card2_div"></div>
+                        <div class="card2_div3 card2_div"></div>
+                        <div class="card2_div4 card2_div"></div>
+                        <div class="card2_div5 card2_div"></div>
+                        <div class="card2_div6 card2_div"></div>
+                        <div class="card2_div7 card2_div"></div>
+                        <div class="card2_div8 card2_div"></div>
+                      </div>
+                    </div>
+                    <div class="card2__right">
+                      <ul class="card2__list2">
+                        <li class="card2__item">
+                          <h4 class="card2__item-heading">Серый</h4>
+                          <p class="card2__item-text">440 руб кв/м</p>
+                        </li>
+
+                        <li class="card2__item">
+                          <h4 class="card2__item-heading">Серый</h4>
+                          <p class="card2__item-text">440 руб кв/м</p>
+                        </li>
+
+                        <li class="card2__item">
+                          <h4 class="card2__item-heading">Серый</h4>
+                          <p class="card2__item-text">440 руб кв/м</p>
+                        </li>
+
+                        <li class="card2__item">
+                          <h4 class="card2__item-heading">Серый</h4>
+                          <p class="card2__item-text">440 руб кв/м</p>
+                        </li>
+
+                        <li class="card2__item">
+                          <h4 class="card2__item-heading">Серый</h4>
+                          <p class="card2__item-text">440 руб кв/м</p>
+                        </li>
+                      </ul>
+
+                      <button class="card2__btn">+</button>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="card2__item1">
+                  <div class="card2__item-wrapper">
+                    <div class="card2__left">
+                      <img src="./imgs/card23.png" alt="" />
+                      <h3 class="card2__text">Шестигранник 250x220x70</h3>
+                      <p class="card2__razmer">
+                        Размер: 250x220x70мм <br />
+                        <br />
+                        Количество: 9 шт/кв.м <br />
+                        <br />
+                        Цвета в наличии: 8 <br />
+                      </p>
+                      <div class="card2_divs">
+                        <div class="card2_div1 card2_div"></div>
+                        <div class="card2_div2 card2_div"></div>
+                        <div class="card2_div3 card2_div"></div>
+                        <div class="card2_div4 card2_div"></div>
+                        <div class="card2_div5 card2_div"></div>
+                        <div class="card2_div6 card2_div"></div>
+                        <div class="card2_div7 card2_div"></div>
+                        <div class="card2_div8 card2_div"></div>
+                      </div>
+                    </div>
+                    <div class="card2__right">
+                      <ul class="card2__list2">
+                        <li class="card2__item">
+                          <h4 class="card2__item-heading">Серый</h4>
+                          <p class="card2__item-text">440 руб кв/м</p>
+                        </li>
+
+                        <li class="card2__item">
+                          <h4 class="card2__item-heading">Серый</h4>
+                          <p class="card2__item-text">440 руб кв/м</p>
+                        </li>
+
+                        <li class="card2__item">
+                          <h4 class="card2__item-heading">Серый</h4>
+                          <p class="card2__item-text">440 руб кв/м</p>
+                        </li>
+
+                        <li class="card2__item">
+                          <h4 class="card2__item-heading">Серый</h4>
+                          <p class="card2__item-text">440 руб кв/м</p>
+                        </li>
+
+                        <li class="card2__item">
+                          <h4 class="card2__item-heading">Серый</h4>
+                          <p class="card2__item-text">440 руб кв/м</p>
+                        </li>
+                      </ul>
+
+                      <button class="card2__btn">+</button>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="card2__item1">
+                  <div class="card2__item-wrapper">
+                    <div class="card2__left">
+                      <img src="./imgs/card24.png" alt="" />
+                      <h3 class="card2__text">Шестигранник 250x220x70</h3>
+                      <p class="card2__razmer">
+                        Размер: 250x220x70мм <br />
+                        <br />
+                        Количество: 9 шт/кв.м <br />
+                        <br />
+                        Цвета в наличии: 8 <br />
+                      </p>
+                      <div class="card2_divs">
+                        <div class="card2_div1 card2_div"></div>
+                        <div class="card2_div2 card2_div"></div>
+                        <div class="card2_div3 card2_div"></div>
+                        <div class="card2_div4 card2_div"></div>
+                        <div class="card2_div5 card2_div"></div>
+                        <div class="card2_div6 card2_div"></div>
+                        <div class="card2_div7 card2_div"></div>
+                        <div class="card2_div8 card2_div"></div>
+                      </div>
+                    </div>
+                    <div class="card2__right">
+                      <ul class="card2__list2">
+                        <li class="card2__item">
+                          <h4 class="card2__item-heading">Серый</h4>
+                          <p class="card2__item-text">440 руб кв/м</p>
+                        </li>
+
+                        <li class="card2__item">
+                          <h4 class="card2__item-heading">Серый</h4>
+                          <p class="card2__item-text">440 руб кв/м</p>
+                        </li>
+
+                        <li class="card2__item">
+                          <h4 class="card2__item-heading">Серый</h4>
+                          <p class="card2__item-text">440 руб кв/м</p>
+                        </li>
+
+                        <li class="card2__item">
+                          <h4 class="card2__item-heading">Серый</h4>
+                          <p class="card2__item-text">440 руб кв/м</p>
+                        </li>
+
+                        <li class="card2__item">
+                          <h4 class="card2__item-heading">Серый</h4>
+                          <p class="card2__item-text">440 руб кв/м</p>
+                        </li>
+                      </ul>
+
+                      <button class="card2__btn">+</button>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="card2__item1">
+                  <div class="card2__item-wrapper">
+                    <div class="card2__left">
+                      <img src="./imgs/card25.png" alt="" />
+                      <h3 class="card2__text">Шестигранник 250x220x70</h3>
+                      <p class="card2__razmer">
+                        Размер: 250x220x70мм <br />
+                        <br />
+                        Количество: 9 шт/кв.м <br />
+                        <br />
+                        Цвета в наличии: 8 <br />
+                      </p>
+                      <div class="card2_divs">
+                        <div class="card2_div1 card2_div"></div>
+                        <div class="card2_div2 card2_div"></div>
+                        <div class="card2_div3 card2_div"></div>
+                        <div class="card2_div4 card2_div"></div>
+                        <div class="card2_div5 card2_div"></div>
+                        <div class="card2_div6 card2_div"></div>
+                        <div class="card2_div7 card2_div"></div>
+                        <div class="card2_div8 card2_div"></div>
+                      </div>
+                    </div>
+                    <div class="card2__right">
+                      <ul class="card2__list2">
+                        <li class="card2__item">
+                          <h4 class="card2__item-heading">Серый</h4>
+                          <p class="card2__item-text">440 руб кв/м</p>
+                        </li>
+
+                        <li class="card2__item">
+                          <h4 class="card2__item-heading">Серый</h4>
+                          <p class="card2__item-text">440 руб кв/м</p>
+                        </li>
+
+                        <li class="card2__item">
+                          <h4 class="card2__item-heading">Серый</h4>
+                          <p class="card2__item-text">440 руб кв/м</p>
+                        </li>
+
+                        <li class="card2__item">
+                          <h4 class="card2__item-heading">Серый</h4>
+                          <p class="card2__item-text">440 руб кв/м</p>
+                        </li>
+
+                        <li class="card2__item">
+                          <h4 class="card2__item-heading">Серый</h4>
+                          <p class="card2__item-text">440 руб кв/м</p>
+                        </li>
+                      </ul>
+
+                      <button class="card2__btn">+</button>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="card2__item1">
+                  <div class="card2__item-wrapper">
+                    <div class="card2__left">
+                      <img src="./imgs/card26.png" alt="" />
+                      <h3 class="card2__text">Шестигранник 250x220x70</h3>
+                      <p class="card2__razmer">
+                        Размер: 250x220x70мм <br />
+                        <br />
+                        Количество: 9 шт/кв.м <br />
+                        <br />
+                        Цвета в наличии: 8 <br />
+                      </p>
+                      <div class="card2_divs">
+                        <div class="card2_div1 card2_div"></div>
+                        <div class="card2_div2 card2_div"></div>
+                        <div class="card2_div3 card2_div"></div>
+                        <div class="card2_div4 card2_div"></div>
+                        <div class="card2_div5 card2_div"></div>
+                        <div class="card2_div6 card2_div"></div>
+                        <div class="card2_div7 card2_div"></div>
+                        <div class="card2_div8 card2_div"></div>
+                      </div>
+                    </div>
+                    <div class="card2__right">
+                      <ul class="card2__list2">
+                        <li class="card2__item">
+                          <h4 class="card2__item-heading">Серый</h4>
+                          <p class="card2__item-text">440 руб кв/м</p>
+                        </li>
+
+                        <li class="card2__item">
+                          <h4 class="card2__item-heading">Серый</h4>
+                          <p class="card2__item-text">440 руб кв/м</p>
+                        </li>
+
+                        <li class="card2__item">
+                          <h4 class="card2__item-heading">Серый</h4>
+                          <p class="card2__item-text">440 руб кв/м</p>
+                        </li>
+
+                        <li class="card2__item">
+                          <h4 class="card2__item-heading">Серый</h4>
+                          <p class="card2__item-text">440 руб кв/м</p>
+                        </li>
+
+                        <li class="card2__item">
+                          <h4 class="card2__item-heading">Серый</h4>
+                          <p class="card2__item-text">440 руб кв/м</p>
+                        </li>
+                      </ul>
+
+                      <button class="card2__btn">+</button>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="tovar" id="about4">
+        <div class="big-container tovar__section">
+          <div class="container tovar__container">
+            <h4 class="tovar__heading">О производстве</h4>
+            <div class="tovar__wrapper">
+              <div class="tovar__left">
+                <ul class="tovar__list">
+                  <div class="tovar__logo-wrap">
+                    <a href="">
+                      <img src="./imgs/logo.svg" alt="" />
+                    </a>
+                  </div>
+                  <li class="tovar__item">
+                    <img
+                      src="./imgs/tovar-img1.svg"
+                      alt=""
+                      class="tovar__logo"
+                    />
+                    <p class="tovar__text">
+                      Доставка и разгрузка плитки краном-манипулятором
+                    </p>
+                  </li>
+
+                  <li class="tovar__item">
+                    <img
+                      src="./imgs/tovar-img2.svg"
+                      alt=""
+                      class="tovar__logo"
+                    />
+                    <p class="tovar__text">
+                      Доставка и разгрузка плитки краном-манипулятором
+                    </p>
+                  </li>
+
+                  <li class="tovar__item">
+                    <img
+                      src="./imgs/tovar-img3.svg"
+                      alt=""
+                      class="tovar__logo"
+                    />
+                    <p class="tovar__text">
+                      Доставка и разгрузка плитки краном-манипулятором
+                    </p>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="tovar__right">
+                <iframe
+                  src="https://www.youtube.com/embed/IysADeVo02M"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="card3" id="about5">
+        <div class="big-container">
+          <div class="container card3__container">
+            <h4 class="card3__heading">Наши работы</h4>
+            <p class="card3_text">
+              Отделка участка, сада, входной группы или любой другой частной
+              территории требует большого внимания со стороны владельца,
+              поскольку именно эти зоны являются «лицом», а значит и престижем
+              вашего дома или коммерческого объекта. Подбор прочного и
+              эстетически презентабельного материала для оформления входа,
+              дорожек, пешеходных зон – это уже половина успеха отделки. Вторая
+              половина – это, безусловно, грамотная укладка, обеспечивающая
+              долговечность покрытия.
+            </p>
+
+            <ul class="card3__list">
+              <li class="card3__item">
+                <img src="./imgs/card31.png" alt="" class="card3__img" />
+              </li>
+
+              <li class="card3__item">
+                <img src="./imgs/card32.png" alt="" class="card3__img" />
+              </li>
+
+              <li class="card3__item">
+                <img src="./imgs/card33.png" alt="" class="card3__img" />
+              </li>
+
+              <li class="card3__item">
+                <img src="./imgs/card34.png" alt="" class="card3__img" />
+              </li>
+
+              <li class="card3__item">
+                <img src="./imgs/card35.png" alt="" class="card3__img" />
+              </li>
+
+              <li class="card3__item">
+                <img src="./imgs/card36.png" alt="" class="card3__img" />
+              </li>
+
+              <li class="card3__item">
+                <img src="./imgs/card37.png" alt="" class="card3__img" />
+              </li>
+
+              <li class="card3__item">
+                <img src="./imgs/card38.png" alt="" class="card3__img" />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="card4" id="about6">
+        <div class="big-container card4-section">
+          <div class="container card4__container">
+            <h5 class="card4__heading">Наши преимущества</h5>
+            <ul class="card4__list">
+              <li class="card4__item">
+                <img src="./imgs/card41.svg" alt="" class="card4__img" />
+                <h5 class="card4__card-heading">
+                  Тротуарная плитка от производителя в широком ассортименте
+                </h5>
+                <p class="card4__text">
+                  На сайте вы сможете подобрать прессованную, вибролитую или
+                  фасадную плитку, блоки и бордюры, водостоки, крышки на столбы
+                  и многое другое.
+                </p>
+              </li>
+
+              <li class="card4__item">
+                <img src="./imgs/card42.svg" alt="" class="card4__img" />
+                <h5 class="card4__card-heading">
+                  Тротуарная плитка от производителя в широком ассортименте
+                </h5>
+                <p class="card4__text">
+                  На сайте вы сможете подобрать прессованную, вибролитую или
+                  фасадную плитку, блоки и бордюры, водостоки, крышки на столбы
+                  и многое другое.
+                </p>
+              </li>
+
+              <li class="card4__item">
+                <img src="./imgs/card43.svg" alt="" class="card4__img" />
+                <h5 class="card4__card-heading">
+                  Тротуарная плитка от производителя в широком ассортименте
+                </h5>
+                <p class="card4__text">
+                  На сайте вы сможете подобрать прессованную, вибролитую или
+                  фасадную плитку, блоки и бордюры, водостоки, крышки на столбы
+                  и многое другое.
+                </p>
+              </li>
+
+              <li class="card4__item">
+                <img src="./imgs/card44.svg" alt="" class="card4__img" />
+                <h5 class="card4__card-heading">
+                  Тротуарная плитка от производителя в широком ассортименте
+                </h5>
+                <p class="card4__text">
+                  На сайте вы сможете подобрать прессованную, вибролитую или
+                  фасадную плитку, блоки и бордюры, водостоки, крышки на столбы
+                  и многое другое.
+                </p>
+              </li>
+
+              <li class="card4__item">
+                <img src="./imgs/card45.svg" alt="" class="card4__img" />
+                <h5 class="card4__card-heading">
+                  Тротуарная плитка от производителя в широком ассортименте
+                </h5>
+                <p class="card4__text">
+                  На сайте вы сможете подобрать прессованную, вибролитую или
+                  фасадную плитку, блоки и бордюры, водостоки, крышки на столбы
+                  и многое другое.
+                </p>
+              </li>
+
+              <li class="card4__item">
+                <img src="./imgs/card46.svg" alt="" class="card4__img" />
+                <h5 class="card4__card-heading">
+                  Тротуарная плитка от производителя в широком ассортименте
+                </h5>
+                <p class="card4__text">
+                  На сайте вы сможете подобрать прессованную, вибролитую или
+                  фасадную плитку, блоки и бордюры, водостоки, крышки на столбы
+                  и многое другое.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="big-container">
+        <div class="container footer__container">
+          <div class="footer__left">
+            <a href="" class="footer__left--heading">
+              Магазин
+            </a >
+            <p class="footer__left--text">
+              Петрсональный раздел
+            </p>
+
+            <div class="footer__left_rejim-wrapper">
+              <img src="./imgs/footer1.svg" alt="" class="footer__left-img1">
+              <p class="footer_rejim_text">Режим работы: с 8:00 до 20:00</p>
+            </div>
+            <a href="tel:998942990830"  class="footer__left_rejim-wrapper2">
+              <img src="./imgs/footer2.svg" alt="" class="footer__left-img1">
+              <p class="footer_rejim_text">+7 (926) 105-94-14 <br>
+                +7 (910) 470-67-97 <br>
+                +7 (926) 105-94-14
+               </p>
+            </a>
+          </div>
+          <div class="footer__right">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a href="" class="footer__link activ">Каталог</a>
+                <a href="" class="footer__link">Акции</a>
+                <a href="" class="footer__link">Тротуарная плитка</a>
+                <a href="" class="footer__link">Бордюры</a>
+              </li>
+
+              <li class="footer__item">
+                <a href="" class="footer__link activ">Каталог</a>
+                <a href="" class="footer__link">Акции</a>
+                <a href="" class="footer__link">Тротуарная плитка</a>
+                <a href="" class="footer__link">Бордюры</a>
+              </li>
+
+              <li class="footer__item">
+                <a href="" class="footer__link activ">Каталог</a>
+                <a href="" class="footer__link">Акции</a>
+                <a href="" class="footer__link">Тротуарная плитка</a>
+                <a href="" class="footer__link">Бордюры</a>
+              </li>
+            
+            
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth; ////linkni bosganda sekin olib boradi tiransionga uxshaydi
+}
+.container{
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1048px;
+  width: 100%;
+}
+.big-container{
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1600px;
+  width: 100%;
+  background-color: white;
+}
+body{
+  background-color: gray;
+}
+button{
+  border: none;
+  cursor: pointer;
+}
+a{
+  color: inherit;
+}
+@import "./header";
+@import "./shoces";
+@import "./button";
+@import "./card";
+@import "./master";
+@import "./card2";
+@import "./tovar";
+@import "./card3";
+@import "./card4";
+@import "./footer";
+
+
+

@@ -1,0 +1,36 @@
+
+.card3__container {
+  text-align: center;
+  padding: 120px 0px;
+}
+.card3__heading {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 43px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 70px;
+}
+.card3_text {
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+text-align: center;
+color: #000000;
+margin-bottom: 70px;
+}
+.card3__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+.card3__item {
+}
+.card3__img {
+  width: 310px;
+}
